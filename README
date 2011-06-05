@@ -1,0 +1,13 @@
+The goal of this project is to allow the creation of encrypted password hashes
+that EXACTLY match those created by popular operating systems.  There are 
+various existing projects that provide similar functions, most notably the 
+powerful toolkit from Core Securities 
+
+http://oss.coresecurity.com/projects/pshtoolkit.htm
+
+In using this toolkit I noticed that it was not correctly creating the hashes
+for passwords that included non-keyboard characters. I started writing some
+code that seems to work and this is the result.  I welcome any feedback and
+anyone who wishes to contribute.  
+
+Kent McHenry
